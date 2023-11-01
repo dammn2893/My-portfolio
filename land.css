@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(pexels-aleksandar-pasaric-325185.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    
+}
+.heading p{
+    padding-top: 10px;
+}
+.writing a{
+    color: black;
+    margin: 0 25px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.login a{
+    color: black;
+    margin-right: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main{
+    align-items: center;
+    margin-left: 400px;
+    font-size: 50px;
+    margin-top: 100px;
+    color: #060507c7;
+}
+.main h1{
+    font-size: 200px;
+    color: black;
+    font-weight: 100px;
+}
+button{
+     margin-left: 40rem;
+     background: black;
+     margin-top: 50px;
+     color: white;
+     width: 100px;
+     height: 30px;
+     border: none;
+}
+.main p{
+    line-height: 0;
+    font-size: 40px;
+    font-style: italic;
+    
+}
